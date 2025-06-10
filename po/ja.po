@@ -1,15 +1,15 @@
 # Japanese translations for noVNC package
 # noVNC パッケージに対する日訳
-# Copyright (C) 2019-2024 The noVNC authors
+# Copyright (C) 2019-2025 The noVNC authors
 # This file is distributed under the same license as the noVNC package.
-# nnn1590 <nnn1590@nnn1590.org>, 2019-2024.
+# nnn1590 <nnn1590@nnn1590.org>, 2019-2025.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: noVNC 1.5.0\n"
 "Report-Msgid-Bugs-To: novnc@googlegroups.com\n"
 "POT-Creation-Date: 2024-06-03 14:10+0200\n"
-"PO-Revision-Date: 2024-12-14 15:22+0900\n"
+"PO-Revision-Date: 2025-06-11 00:46+0900\n"
 "Last-Translator: nnn1590 <nnn1590@nnn1590.org>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -60,7 +60,7 @@ msgstr "接続しました (暗号化されていません): "
 
 #: ../app/ui.js:1143
 msgid "Something went wrong, connection is closed"
-msgstr "問題が発生したため、接続が閉じられました"
+msgstr "問題が発生したため切断されました"
 
 #: ../app/ui.js:1146
 msgid "Failed to connect to server"
@@ -72,11 +72,11 @@ msgstr "切断しました"
 
 #: ../app/ui.js:1173
 msgid "New connection has been rejected with reason: "
-msgstr "新規接続は次の理由で拒否されました: "
+msgstr "接続は次の理由で拒否されました: "
 
 #: ../app/ui.js:1176
 msgid "New connection has been rejected"
-msgstr "新規接続は拒否されました"
+msgstr "接続が拒否されました"
 
 #: ../app/ui.js:1242
 msgid "Credentials are required"
@@ -88,7 +88,7 @@ msgstr "noVNC でエラーが発生しました:"
 
 #: ../vnc.html:65
 msgid "Hide/Show the control bar"
-msgstr "コントロールバーを隠す/表示する"
+msgstr "コントロールバーを隠す/表示"
 
 #: ../vnc.html:74
 msgid "Drag"
@@ -224,7 +224,7 @@ msgstr "なし"
 
 #: ../vnc.html:171
 msgid "Local scaling"
-msgstr "ローカルでスケーリング"
+msgstr "ローカルで拡大縮小"
 
 #: ../vnc.html:172
 msgid "Remote resizing"
@@ -272,11 +272,11 @@ msgstr "自動再接続"
 
 #: ../vnc.html:217
 msgid "Reconnect delay (ms):"
-msgstr "再接続する遅延 (ミリ秒):"
+msgstr "再接続する際の時間間隔 (ミリ秒):"
 
 #: ../vnc.html:222
 msgid "Show dot when no cursor"
-msgstr "カーソルがないときにドットを表示する"
+msgstr "カーソルがないときにドットを表示"
 
 #: ../vnc.html:227
 msgid "Logging:"
